@@ -1,0 +1,15 @@
+[commit]
+pattern = "^[A-Z]+-\\d+\\s\\|\\s[A-Z]+\\s:\\s.+$"
+strict = true
+
+[ticket]
+pattern = "^[A-Z]+-\\d+$"
+uppercase = true
+
+[types]
+allowed = [ "FEAT", "FIX", "INIT", "DOCS", "REFACTOR", "TEST", "CHORE",]
+
+[severity]
+invalid_format = "error"
+unknown_type = "error"
+missing_ticket = "error"
