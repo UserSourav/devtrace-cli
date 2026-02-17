@@ -19,3 +19,5 @@ Possible refernce for CLI Validator:
                2.HTTPie’s HTTP logic is irrelevant to us.We only copy structure, not implementation
 
 AIM: Build CLI but follow HTTPie's separation between CLI AND core.Even if CLI changes the core should remain untouched.
+
+Testing enforcer v1
